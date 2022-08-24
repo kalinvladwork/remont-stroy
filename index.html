@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ремонт строй</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<div class="wrapper">
+    <header class="container-fluid header-wrap">
+        <div class="container header">
+            <div class="row">
+                <div class="col-sm-3 col-4 d-lg-none d-flex align-items-center">
+                    <div>
+                        <div id="navToggle" class="circle">
+                            <svg width="100%" height="100%" viewBox="0 0 15 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="15" height="2" fill="white"/>
+                                <rect y="6" width="11" height="2" fill="white"/>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-4 col-8 logo_wrapper align-items-center">
+                    <img src="img/icon/logo.png" class="logo_img" alt="Logo">
+                </div>
+                <div class="col-12 col-sm-5 header_phone_mobile_wrapper d-lg-none d-flex">
+                    <a class="header_phone_mobile" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                    <a class="header_phone_mobile" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                    <a class="header_phone_mobile" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                </div>
+                <nav class="col-lg-4 d-lg-flex d-none nav u-h7">
+                    <a class="nav_link" href="#about-us" title="О нас">О нас</a>
+                    <a class="nav_link" href="#photo" title="Фото">Фото</a>
+                    <a class="nav_link" href="#video" title="Видео">Видео</a>
+                    <a class="nav_link" href="#prices" title="Цены">Цены</a>
+                    <a class="nav_link" href="#location" title="Как нас найти?">Как нас найти?</a>
+                    <a class="nav_link" href="#request" title="Оставить заявку">Оставить заявку</a>
+                </nav>
+                <div class="col-lg-4 d-lg-flex d-none flex-column justify-content-between">
+                    <div class="d-flex align-items-center">
+                        <div class="dropdown header_phone">
+                            <div class="dropdown-title">
+                                <a class="u-h5" title="позвонить по номеру">+38 093 719 79 59</a>
+                                <svg class="dropdown-title_icon" width="13" height="8" viewBox="0 0 13 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M5.32301 6.5058L0 1.18278L1.18278 0L6.5058 5.32301L11.8172 0.0115907L13 1.19437L6.50507 7.68931L5.32228 6.50653L5.32301 6.5058Z" fill="black"/>
+                                </svg>
+                                <div class="dropdown-content">
+                                    <a class="u-h5" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                                    <a class="u-h5" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                                    <a class="u-h5" href="tel:+380937197959" title="позвонить по номеру">+38 093 719 79 59</a>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn" href="" title="Перезвоните мне">Перезвоните мне</a>
+                    </div>
+                    <div class="d-flex align-items-center u-h7">
+                        <img class="icon-address" src="img/icon/icon-address.svg" alt="icon-address">
+                        <span class="color-grey">Наш адрес: </span>
+                        <a href="#location"> г. Харьков, проспект Науки, 134 </a>
+                    </div>
+                </div>
+                <div class="col-lg-1 d-lg-flex d-none flex-column justify-content-between">
+                    <div class="d-flex justify-content-between">
+                        <a href="#" title="telegram">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 24C18.629 24 24 18.629 24 12C24 5.371 18.629 0 12 0C5.371 0 0 5.371 0 12C0 18.629 5.371 24 12 24ZM5.491 11.74L17.061 7.279C17.598 7.085 18.067 7.41 17.893 8.222L17.894 8.221L15.924 17.502C15.778 18.16 15.387 18.32 14.84 18.01L11.84 15.799L10.393 17.193C10.233 17.353 10.098 17.488 9.788 17.488L10.001 14.435L15.561 9.412C15.803 9.199 15.507 9.079 15.188 9.291L8.317 13.617L5.355 12.693C4.712 12.489 4.698 12.05 5.491 11.74Z" fill="#C4C4C4"/>
+                            </svg>
+                        </a>
+                        <a href="#" title="whatsapp">
+                            <svg width="24" height="26" viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7548 15.0518C24.5359 8.52829 23.3796 4.40984 21.2937 2.54706L21.2948 2.54598C17.9283 -0.635131 6.55878 -1.10597 2.53113 2.68885C0.722399 4.54513 0.0853057 7.26948 0.0154872 10.6422C-0.0543312 14.0159 -0.137241 20.336 5.79842 22.0504H5.80387L5.79842 24.6687C5.79842 24.6687 5.75805 25.7295 6.44096 25.9427C7.17652 26.1791 7.53284 25.7562 9.60071 23.3018L9.60212 23.3001C9.72972 23.1486 9.86385 22.9894 10.005 22.8222C14.0675 23.1718 17.1875 22.3708 17.5421 22.2539C17.6153 22.2296 17.7191 22.2025 17.8478 22.169L17.8479 22.169C19.1606 21.8268 23.0713 20.8073 23.7548 15.0518ZM10.4053 20.98C10.4053 20.98 7.83406 24.1611 7.03442 24.9869C6.7726 25.2554 6.48569 25.2305 6.49005 24.6979C6.49005 24.3483 6.50969 20.3511 6.50969 20.3511C1.65025 18.9694 1.75994 13.9038 1.82233 11.0224L1.82233 11.0224C1.82455 10.9198 1.82671 10.8201 1.82858 10.7234C1.88313 7.907 2.4024 5.60045 3.93405 4.04724C7.46751 0.760055 17.4352 1.49499 19.9748 3.86323C22.8008 6.34891 22.139 12.9642 22.0023 14.3303C21.9888 14.465 21.9804 14.5487 21.981 14.5723C21.4064 19.3223 18.2997 20.0666 17.1816 20.3345L17.1816 20.3345L17.1816 20.3345C17.0579 20.3641 16.9586 20.3879 16.8897 20.4106C16.5941 20.5081 13.8504 21.2084 10.4053 20.98ZM11.8279 4.66528C11.4079 4.66528 11.4079 5.31471 11.8279 5.32012C15.0864 5.34502 17.7701 7.59853 17.7995 11.7321C17.7995 12.1683 18.4432 12.1629 18.4377 11.7267H18.4366C18.4017 7.27273 15.4715 4.69018 11.8279 4.66528ZM16.7523 11.0621C16.7468 11.4983 16.1043 11.4777 16.1141 11.0469C16.1643 8.89625 14.8541 7.21207 12.3668 7.02482C11.9479 6.99451 11.9915 6.33967 12.4115 6.36998C15.2796 6.58321 16.8057 8.60617 16.7523 11.0621ZM15.4268 13.8406C14.8879 13.531 14.3392 13.7237 14.1122 14.0278L13.6377 14.6372C13.3966 14.9468 12.9461 14.9056 12.9461 14.9056C9.65805 14.043 8.77878 10.6291 8.77878 10.6291C8.77878 10.6291 8.73841 10.167 9.0395 9.9191L9.63296 9.43203C9.92969 9.19824 10.1173 8.6354 9.81514 8.08231C9.20644 6.99114 8.74846 6.43904 8.44166 6.06919C8.34157 5.94854 8.25757 5.84728 8.18968 5.75303C7.8995 5.3926 7.46313 5.31142 7.00931 5.55495H6.9995C6.05586 6.10264 5.02276 7.12765 5.35331 8.18297C5.4511 8.3759 5.5631 8.64202 5.69865 8.96412L5.69867 8.96416C6.34489 10.4997 7.52647 13.3073 10.257 15.5226C11.8093 16.79 14.2661 18.0889 15.309 18.3887L15.3188 18.4039C16.3464 18.7437 17.3457 17.6787 17.8792 16.7143V16.7067C18.1159 16.2402 18.0374 15.7986 17.6915 15.5096C17.0784 14.9164 16.1533 14.2616 15.4268 13.8406ZM14.4722 10.5057C14.4177 9.38981 13.9093 8.84646 12.861 8.78584C12.4366 8.76095 12.4759 8.10611 12.8959 8.131C14.2748 8.20677 15.0406 9.01855 15.1104 10.4754C15.1301 10.9116 14.4919 10.9419 14.4722 10.5057Z" fill="#C4C4C4"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="d-lg-flex d-none justify-content-between u-h7">
+                        <a class="lang-link" href="#" title="">ua</a>
+                        <a class="lang-link" href="#" title="">ru</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="banner-header container-fluid">
+        <div class="container banner-header-content">
+            <div class="banner-title u-h1">
+                Ремонт квартир <br class="d-lg-block d-none">
+                и домов в харькове
+            </div>
+            <p class="banner-subtitle">Ремонт жилых помещений любой степени сложности в городе Харьков</p>
+            <div class="row">
+                <div class="col-lg-4 col-md-5 col-sm-6 col-12">
+                    <a class="btn large" href="#prices" title="Узнать стоимость">Узнать стоимость</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="section-title u-h2">Этапы работ</div>
+        <div class="row">
+            <div class="circle-card stage col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="circle large">1</div>
+                <div class="circle-card_title is-bordered-lg">
+                    <span class="circle-card_title_text">Оставляете <br>
+                    заявку</span>
+                </div>
+            </div>
+            <div class="circle-card stage col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="circle large">2</div>
+                <div class="circle-card_title is-bordered-lg">
+                    <span class="circle-card_title_text">Выезд <br>
+                    специалиста <br>
+                    на замер</span>
+                </div>
+            </div>
+            <div class="circle-card stage col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="circle large">3</div>
+                <div class="circle-card_title">
+                    <span class="circle-card_title_text">Составление <br>
+                    сметы</span>
+                </div>
+            </div>
+            <div class="circle-card stage col-lg-4 col-md-6 col-sm-12 col-12 offset-lg-2">
+                <div class="circle large">4</div>
+                <div class="circle-card_title is-bordered-lg">
+                    <span class="circle-card_title_text">Ремонт</span>
+                </div>
+            </div>
+            <div class="circle-card stage col-lg-4 col-md-6 col-sm-12 col-12">
+                <div class="circle large">5</div>
+                <div class="circle-card_title last">
+                    <span class="circle-card_title_text">Прием <br>
+                    работы</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container_grey-bg container-fluid">
+        <div class="container container-form">
+            <div id="request" class="section-title u-h2">оставьте заявку и мы перезвоним вам!</div>
+            <form class="row" action="">
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                    <input class="input-style" type="text" placeholder="Ваше Имя">
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 mb-3">
+                    <input class="input-style" type="tel" placeholder="+380 ХХХ ХХ ХХ">
+                </div>
+                <div class="col-xl-4  col-lg-4 col-md-6 col-sm-12 col-12 mb-3 offset-lg-0 offset-md-3">
+                    <button class="btn large" type="submit">Перезвоните мне</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section class="container-fluid">
+        <div class="services-banner"></div>
+        <div class="container services-wrapper">
+            <div class="services-title u-h4">Также мы выполняем:</div>
+            <div class="services-grid">
+                <figure class="services_card balconies">
+                    <div class="services_card_img_wrapper">
+                        <img class="services_card_img" src="img/image-7.jpg" alt="">
+                    </div>
+                    <figcaption>Ремонт балконов</figcaption>
+                </figure>
+                <figure class="services_card plumbing">
+                    <div class="services_card_img_wrapper">
+                        <img class="services_card_img" src="img/image-10.jpg" alt="">
+                    </div>
+                    <figcaption>Сантехника под ключ</figcaption>
+                </figure>
+                <figure class="services_card warming">
+                    <div class="services_card_img_wrapper">
+                        <img class="services_card_img" src="img/image-8.jpg" alt="">
+                    </div>
+                    <figcaption>Утепление фасадов</figcaption>
+                </figure>
+                <figure class="services_card slopes">
+                    <div class="services_card_img_wrapper">
+                        <img class="services_card_img" src="img/image-9.jpg" alt="">
+                    </div>
+                    <figcaption>Откосы и установка отскосов</figcaption>
+                </figure>
+                <figure class="services_card electrician">
+                    <div class="services_card_img_wrapper">
+                        <img class="services_card_img" src="img/image-11.jpg" alt="">
+                    </div>
+                    <figcaption>Електрика под ключ</figcaption>
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="video" class="section-title u-h2">Видео</div>
+        <div class="slider-video slider-wrapper">
+            <div class="slider-video-for">
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-U0AFQbfv88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1dLQJCbDu28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5uDZBxBJf2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lFos3m8S-ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1dLQJCbDu28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="slider-video-nav">
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/-U0AFQbfv88" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1dLQJCbDu28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/5uDZBxBJf2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lFos3m8S-ms" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/1dLQJCbDu28" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container_grey-bg padding-15 container-fluid">
+        <div class="container">
+            <div id="about-us" class="section-title u-h2">Почему стоит выбрать нас</div>
+            <div class="row">
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-experience.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="circle-card_title_text">
+                        Опыт работы
+                        более 11 лет
+                    </div>
+                </div>
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-guarantee.svg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="circle-card_title_text">
+                        Гарантия на отделочные
+                        работы – 5 лет
+                    </div>
+                </div>
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-specialists.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="circle-card_title_text">
+                        Квалифицированные
+                        специалисты
+                    </div>
+                </div>
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-calendar.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="circle-card_title_text">
+                        Выполняем работу
+                        точно в срок
+                    </div>
+                </div>
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-approach.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="circle-card_title_text">
+                        Индивидуальный
+                        подход
+                    </div>
+                </div>
+                <div class="circle-card about mb-8 col-md-6">
+                    <div>
+                        <div class="circle large">
+                            <img src="img/icon/icon-broom.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="circle-card_title_text">
+                        Оставляем после себя
+                        помещение без мусора
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="titles">
+            <div id="prices" class="section-title u-h2">Цены</div>
+            <div class="section-subtitle">Наши цены можно разделить на 3 группы. Возможны варианты для любого бюджета.</div>
+        </div>
+        <div class="row card-wrapper">
+            <div class="col-lg-4 ">
+                <div class="card-package">
+                    <div class="card-package_title u-h3">Пакет
+                        Стандарт
+                    </div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non
+                        deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-package">
+                    <div class="card-package_title u-h3">Пакет
+                        Люкс
+                    </div>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                        duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.Amet minim mollit non
+                        deserunt ullamco est sit aliqua dolor do amet sint. Amet minim mollit non deserunt ullamco est sit
+                        aliqua dolor do amet sint. </p>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card-package is-yellow">
+                    <div class="card-package_title u-h3">Пакет
+                        Премиум
+                    </div>
+                    <p>Amet minimet sint. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row package-row">
+            <div class="col-lg-10 col-md-9 col-12 package-row_content">
+                <div class="package-row_title u-h5">Пакет Стандарт</div>
+                <p class="color-grey">В пакет входит: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12 package-row_price">
+                <span>
+                    от
+                <b>20 000 грн</b>
+                </span>
+            </div>
+        </div>
+        <div class="row package-row">
+            <div class="col-lg-10 col-md-9 col-12 package-row_content">
+                <div class="package-row_title u-h5">Пакет Люкс</div>
+                <p class="color-grey">В пакет входит: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12 package-row_price">
+                <span>
+                    от
+                <b>50 000 грн</b>
+                </span>
+            </div>
+        </div>
+        <div class="row package-row">
+            <div class="col-lg-10 col-md-9 col-12 package-row_content">
+                <div class="package-row_title u-h5">Пакет Премиум</div>
+                <p class="color-grey">В пакет входит: Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae
+                    legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit.</p>
+            </div>
+            <div class="col-lg-2 col-md-3 col-12 package-row_price">
+                <span>
+                    от
+                <b> 100 000 грн</b>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="location" class="section-title u-h2">как нас найти?</div>
+        <div class="map-wrapper">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.3620091288526!2d36.22047521571655!3d50.04204947942113!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4127a6b0fc91f49f%3A0x59697417f131384d!2z0L_RgNC-0YHQvy4g0J3QsNGD0LrQuCwgMTM0LCDQpdCw0YDRjNC60L7Qsiwg0KXQsNGA0YzQutC-0LLRgdC60LDRjyDQvtCx0LvQsNGB0YLRjCwgNjEwMDA!5e0!3m2!1sru!2sua!4v1616759815391!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="row">
+            <div class="col-lg-5 d-flex align-items-center mb-5">
+                <img class="map_icon" src="img/icon/icon-address.svg" alt="icon-address">
+                <div class="d-flex flex-column ">
+                    <span class="color-grey u-h7 mb-3">Наш адрес: </span>
+                    <span class="u-h6">г. Харьков, проспект Науки, 134 </span>
+                </div>
+            </div>
+            <div class="col-lg-7">
+                <div class="d-flex flex-column">
+                    <span class="color-grey u-h7 mb-3">Телефон: </span>
+                    <div class="u-h5 map_phone">
+                        <a href="tel:+380937197959">+38 093 719 79 59</a>
+                        <a href="tel:+380937197959">+38 093 719 79 59</a>
+                        <a href="tel:+380937197959">+38 093 719 79 59</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div id="photo" class="section-title u-h2">
+            Фото
+        </div>
+        <div class="slider-photo slider-wrapper">
+            <div class="slider-photo-for">
+                <div><img src="http://placehold.it/350x300?text=1"></div>
+                <div><img src="http://placehold.it/350x300?text=2"></div>
+                <div><img src="http://placehold.it/350x300?text=3"></div>
+                <div><img src="http://placehold.it/350x300?text=4"></div>
+                <div><img src="http://placehold.it/350x300?text=5"></div>
+            </div>
+            <div class="slider-photo-nav">
+                <div><img src="http://placehold.it/350x300?text=1"></div>
+                <div><img src="http://placehold.it/350x300?text=2"></div>
+                <div><img src="http://placehold.it/350x300?text=3"></div>
+                <div><img src="http://placehold.it/350x300?text=4"></div>
+                <div><img src="http://placehold.it/350x300?text=5"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container section-text">
+        <div class="section-title u-h2">
+            Текстовый блок
+        </div>
+        <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel.  Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu. Vidit dissentiet eos cu eum an brute copiosae hendrerit. Eos erant dolorum an. Per facer affert ut. Mei iisque mentitum moderatius cu. Sit munere facilis accusam eu dicat falli consulatu at vis. Te facilisis mnesarchum qui posse omnium mediocritatem est cu. Modus argumentum ne qui tation efficiendi in eos. Ei mea falli legere efficiantur et tollit aliquip debitis mei. No deserunt mediocritatem mel. Lorem ipsum dolor sit amet et delectus accommodare his consul copiosae legendos at vix ad putent delectus delicata usu.
+        </p>
+    </section>
+
+    <section class="container">
+        <div class="section-title u-h2">
+            Частые вопросы
+        </div>
+        <div class="accordion">
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    Lorem ipsum dolor sit ametet delectus accommodare his consul copiosae legendos?
+                    <div>
+                        <div class="circle accordion-circle">
+                            <img src="img/icon/icon-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    Item 2
+                    <div>
+                        <div class="circle accordion-circle">
+                            <img src="img/icon/icon-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    Item 3
+                    <div>
+                        <div class="circle accordion-circle">
+                            <img src="img/icon/icon-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    Item 4
+                    <div>
+                        <div class="circle accordion-circle">
+                            <img src="img/icon/icon-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.</p>
+                </div>
+            </div>
+
+            <div class="accordion-item">
+                <div class="accordion-title">
+                    Item 5
+                    <div>
+                        <div class="circle accordion-circle">
+                            <img src="img/icon/icon-arrow-down.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsam ipsa ipsum doloremque, placeat veritatis laborum nemo a. Eos unde esse laudantium mollitia perferendis repudiandae.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container footer">
+        <div class="row">
+            <div class="col-lg-4 footer-col">
+                <img src="img/icon/logo.png" class="logo_img" alt="Logo">
+                <div class="d-lg-flex d-none">
+                    <span class="color-grey mr-4">Мы в соц. сетях:</span>
+                    <a class="social-item mr-3" href="" title="fb">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 12C24 5.37188 18.6281 0 12 0C5.37188 0 0 5.37188 0 12C0 18.6281 5.37188 24 12 24C12.0703 24 12.1406 24 12.2109 23.9953V14.6578H9.63281V11.6531H12.2109V9.44062C12.2109 6.87656 13.7766 5.47969 16.0641 5.47969C17.1609 5.47969 18.1031 5.55938 18.375 5.59688V8.27813H16.8C15.5578 8.27813 15.3141 8.86875 15.3141 9.73594V11.6484H18.2906L17.9016 14.6531H15.3141V23.5359C20.3297 22.0969 24 17.4797 24 12Z" fill="#C4C4C4"/>
+                        </svg>
+                    </a>
+                    <a class="social-item" href="" title="instagram">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM14.1094 12C14.1094 13.1649 13.1649 14.1094 12 14.1094C10.8351 14.1094 9.89062 13.1649 9.89062 12C9.89062 10.8351 10.8351 9.89062 12 9.89062C13.1649 9.89062 14.1094 10.8351 14.1094 12ZM8.4375 5.625H15.5625C17.1134 5.625 18.375 6.8866 18.375 8.4375V15.5625C18.375 17.1134 17.1134 18.375 15.5625 18.375H8.4375C6.8866 18.375 5.625 17.1134 5.625 15.5625V8.4375C5.625 6.8866 6.8866 5.625 8.4375 5.625ZM8.48438 12C8.48438 13.9385 10.0615 15.5156 12 15.5156C13.9385 15.5156 15.5156 13.9385 15.5156 12C15.5156 10.0615 13.9385 8.48438 12 8.48438C10.0615 8.48438 8.48438 10.0615 8.48438 12ZM15.3281 7.96875C15.3281 8.35712 15.6429 8.67188 16.0312 8.67188C16.4196 8.67188 16.7344 8.35712 16.7344 7.96875C16.7344 7.58038 16.4196 7.26562 16.0312 7.26562C15.6429 7.26562 15.3281 7.58038 15.3281 7.96875Z" fill="#C4C4C4"/>
+                        </svg>
+                    </a>
+                </div>
+                <p class="color-grey footer_copyright d-lg-flex d-none">© 2021 РемонтСтройПлюс. Все права защищены</p>
+            </div>
+            <nav class="col-lg-3 footer-col d-flex flex-column">
+                <a class="nav_link" href="#about-us" title="О нас">О нас</a>
+                <a class="nav_link" href="#photo" title="Фото">Фото</a>
+                <a class="nav_link" href="#video" title="Видео">Видео</a>
+                <a class="nav_link" href="#prices" title="Цены">Цены</a>
+                <a class="nav_link" href="#location" title="Как нас найти?">Как нас найти?</a>
+                <a class="nav_link" href="#request" title="Оставить заявку">Оставить заявку</a>
+            </nav>
+            <div class="col-lg-3 footer-col d-flex flex-column">
+                <span class="color-grey ">Телефон:</span>
+                <a class="footer_phone" href="tel:+380937197959">+38 093 719 79 59</a>
+                <a class="footer_phone" href="tel:+380937197959">+38 093 719 79 59</a>
+                <a class="footer_phone" href="tel:+380937197959">+38 093 719 79 59</a>
+
+                <div class="d-lg-none d-flex">
+                    <a href="#request" class="btn" title="Перезвоните мне">
+                        Перезвоните мне
+                    </a>
+                </div>
+                <span class="color-grey">Наш адрес:</span>
+                <span>г. Харьков, проспект Науки, 134 </span>
+            </div>
+            <div class="col-lg-2 footer-col d-flex flex-column">
+                <span class="color-grey">Мессенджеры:</span>
+                <div class="footer_messages d-flex">
+                    <a class="mr-4" href="#" title="telegram">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 24C18.629 24 24 18.629 24 12C24 5.371 18.629 0 12 0C5.371 0 0 5.371 0 12C0 18.629 5.371 24 12 24ZM5.491 11.74L17.061 7.279C17.598 7.085 18.067 7.41 17.893 8.222L17.894 8.221L15.924 17.502C15.778 18.16 15.387 18.32 14.84 18.01L11.84 15.799L10.393 17.193C10.233 17.353 10.098 17.488 9.788 17.488L10.001 14.435L15.561 9.412C15.803 9.199 15.507 9.079 15.188 9.291L8.317 13.617L5.355 12.693C4.712 12.489 4.698 12.05 5.491 11.74Z" fill="#C4C4C4"/>
+                        </svg>
+                    </a>
+                    <a class="mr-4" href="#" title="whatsapp">
+                        <svg viewBox="0 0 24 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M23.7548 15.0518C24.5359 8.52829 23.3796 4.40984 21.2937 2.54706L21.2948 2.54598C17.9283 -0.635131 6.55878 -1.10597 2.53113 2.68885C0.722399 4.54513 0.0853057 7.26948 0.0154872 10.6422C-0.0543312 14.0159 -0.137241 20.336 5.79842 22.0504H5.80387L5.79842 24.6687C5.79842 24.6687 5.75805 25.7295 6.44096 25.9427C7.17652 26.1791 7.53284 25.7562 9.60071 23.3018L9.60212 23.3001C9.72972 23.1486 9.86385 22.9894 10.005 22.8222C14.0675 23.1718 17.1875 22.3708 17.5421 22.2539C17.6153 22.2296 17.7191 22.2025 17.8478 22.169L17.8479 22.169C19.1606 21.8268 23.0713 20.8073 23.7548 15.0518ZM10.4053 20.98C10.4053 20.98 7.83406 24.1611 7.03442 24.9869C6.7726 25.2554 6.48569 25.2305 6.49005 24.6979C6.49005 24.3483 6.50969 20.3511 6.50969 20.3511C1.65025 18.9694 1.75994 13.9038 1.82233 11.0224L1.82233 11.0224C1.82455 10.9198 1.82671 10.8201 1.82858 10.7234C1.88313 7.907 2.4024 5.60045 3.93405 4.04724C7.46751 0.760055 17.4352 1.49499 19.9748 3.86323C22.8008 6.34891 22.139 12.9642 22.0023 14.3303C21.9888 14.465 21.9804 14.5487 21.981 14.5723C21.4064 19.3223 18.2997 20.0666 17.1816 20.3345L17.1816 20.3345L17.1816 20.3345C17.0579 20.3641 16.9586 20.3879 16.8897 20.4106C16.5941 20.5081 13.8504 21.2084 10.4053 20.98ZM11.8279 4.66528C11.4079 4.66528 11.4079 5.31471 11.8279 5.32012C15.0864 5.34502 17.7701 7.59853 17.7995 11.7321C17.7995 12.1683 18.4432 12.1629 18.4377 11.7267H18.4366C18.4017 7.27273 15.4715 4.69018 11.8279 4.66528ZM16.7523 11.0621C16.7468 11.4983 16.1043 11.4777 16.1141 11.0469C16.1643 8.89625 14.8541 7.21207 12.3668 7.02482C11.9479 6.99451 11.9915 6.33967 12.4115 6.36998C15.2796 6.58321 16.8057 8.60617 16.7523 11.0621ZM15.4268 13.8406C14.8879 13.531 14.3392 13.7237 14.1122 14.0278L13.6377 14.6372C13.3966 14.9468 12.9461 14.9056 12.9461 14.9056C9.65805 14.043 8.77878 10.6291 8.77878 10.6291C8.77878 10.6291 8.73841 10.167 9.0395 9.9191L9.63296 9.43203C9.92969 9.19824 10.1173 8.6354 9.81514 8.08231C9.20644 6.99114 8.74846 6.43904 8.44166 6.06919C8.34157 5.94854 8.25757 5.84728 8.18968 5.75303C7.8995 5.3926 7.46313 5.31142 7.00931 5.55495H6.9995C6.05586 6.10264 5.02276 7.12765 5.35331 8.18297C5.4511 8.3759 5.5631 8.64202 5.69865 8.96412L5.69867 8.96416C6.34489 10.4997 7.52647 13.3073 10.257 15.5226C11.8093 16.79 14.2661 18.0889 15.309 18.3887L15.3188 18.4039C16.3464 18.7437 17.3457 17.6787 17.8792 16.7143V16.7067C18.1159 16.2402 18.0374 15.7986 17.6915 15.5096C17.0784 14.9164 16.1533 14.2616 15.4268 13.8406ZM14.4722 10.5057C14.4177 9.38981 13.9093 8.84646 12.861 8.78584C12.4366 8.76095 12.4759 8.10611 12.8959 8.131C14.2748 8.20677 15.0406 9.01855 15.1104 10.4754C15.1301 10.9116 14.4919 10.9419 14.4722 10.5057Z" fill="#C4C4C4"/>
+                        </svg>
+                    </a>
+                    <a href="#" title="whatsapp">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.5032 3.48779C18.2471 1.23984 15.2467 0.00131836 12.0502 0C5.4635 0 0.102885 5.33481 0.100235 11.8917C0.0993524 13.9878 0.649544 16.0339 1.69532 17.8374L0 24L6.33485 22.3462C8.08037 23.2938 10.0455 23.7932 12.0453 23.7938H12.0503C18.6363 23.7938 23.9975 18.4585 24 11.9013C24.0013 8.72344 22.7595 5.7356 20.5032 3.48779ZM12.0502 21.7853H12.0461C10.2639 21.7846 8.51604 21.3079 6.99087 20.4075L6.62835 20.1932L2.86915 21.1746L3.87253 17.527L3.6363 17.153C2.64204 15.5792 2.11702 13.7602 2.1179 11.8925C2.11996 6.44253 6.57565 2.00859 12.0542 2.00859C14.7071 2.00947 17.2009 3.03897 19.0761 4.90737C20.9513 6.77578 21.9834 9.25928 21.9825 11.9005C21.9801 17.3509 17.5247 21.7853 12.0502 21.7853ZM17.4982 14.3821C17.1997 14.2333 15.7317 13.5146 15.4579 13.4153C15.1844 13.3162 14.9851 13.2668 14.7863 13.5642C14.5871 13.8615 14.015 14.531 13.8407 14.7292C13.6665 14.9275 13.4925 14.9524 13.1938 14.8036C12.8952 14.6549 11.9332 14.341 10.7926 13.3286C9.90506 12.5407 9.30586 11.5676 9.13159 11.2702C8.95761 10.9726 9.13011 10.8272 9.26258 10.6638C9.58581 10.2643 9.90948 9.84551 10.009 9.64732C10.1086 9.44898 10.0587 9.27539 9.98396 9.12671C9.90948 8.97803 9.31233 7.51538 9.06359 6.92022C8.82102 6.34102 8.57507 6.41924 8.39167 6.41016C8.21769 6.40151 8.01855 6.39976 7.8194 6.39976C7.6204 6.39976 7.29688 6.47402 7.02311 6.77168C6.74948 7.06919 5.97822 7.78799 5.97822 9.25064C5.97822 10.7133 7.04813 12.1263 7.19738 12.3246C7.34663 12.5229 9.30291 15.5244 12.2981 16.8114C13.0105 17.1179 13.5665 17.3005 14.0003 17.4375C14.7156 17.6637 15.3664 17.6317 15.8809 17.5553C16.4547 17.4699 17.6473 16.8363 17.8964 16.1423C18.1451 15.4481 18.1451 14.8532 18.0704 14.7292C17.9959 14.6052 17.7967 14.531 17.4982 14.3821Z" fill="#C4C4C4"/>
+                        </svg>
+                    </a>
+                </div>
+                <div class="d-lg-flex d-none">
+                    <a href="#request" class="btn" title="Перезвоните мне">
+                        Перезвоните мне
+                    </a>
+                </div>
+                <div class="d-lg-none d-flex flex-column mb-5 mt-5">
+                    <span class="color-grey">Мы в соц. сетях:</span>
+                    <div>
+                        <a class="social-item mr-3" href="" title="fb">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M24 12C24 5.37188 18.6281 0 12 0C5.37188 0 0 5.37188 0 12C0 18.6281 5.37188 24 12 24C12.0703 24 12.1406 24 12.2109 23.9953V14.6578H9.63281V11.6531H12.2109V9.44062C12.2109 6.87656 13.7766 5.47969 16.0641 5.47969C17.1609 5.47969 18.1031 5.55938 18.375 5.59688V8.27813H16.8C15.5578 8.27813 15.3141 8.86875 15.3141 9.73594V11.6484H18.2906L17.9016 14.6531H15.3141V23.5359C20.3297 22.0969 24 17.4797 24 12Z" fill="#C4C4C4"/>
+                            </svg>
+                        </a>
+                        <a class="social-item" href="" title="instagram">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12C24 18.6274 18.6274 24 12 24C5.37258 24 0 18.6274 0 12C0 5.37258 5.37258 0 12 0C18.6274 0 24 5.37258 24 12ZM14.1094 12C14.1094 13.1649 13.1649 14.1094 12 14.1094C10.8351 14.1094 9.89062 13.1649 9.89062 12C9.89062 10.8351 10.8351 9.89062 12 9.89062C13.1649 9.89062 14.1094 10.8351 14.1094 12ZM8.4375 5.625H15.5625C17.1134 5.625 18.375 6.8866 18.375 8.4375V15.5625C18.375 17.1134 17.1134 18.375 15.5625 18.375H8.4375C6.8866 18.375 5.625 17.1134 5.625 15.5625V8.4375C5.625 6.8866 6.8866 5.625 8.4375 5.625ZM8.48438 12C8.48438 13.9385 10.0615 15.5156 12 15.5156C13.9385 15.5156 15.5156 13.9385 15.5156 12C15.5156 10.0615 13.9385 8.48438 12 8.48438C10.0615 8.48438 8.48438 10.0615 8.48438 12ZM15.3281 7.96875C15.3281 8.35712 15.6429 8.67188 16.0312 8.67188C16.4196 8.67188 16.7344 8.35712 16.7344 7.96875C16.7344 7.58038 16.4196 7.26562 16.0312 7.26562C15.6429 7.26562 15.3281 7.58038 15.3281 7.96875Z" fill="#C4C4C4"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <span class="color-grey">Язык:</span>
+                <div>
+                    <a class="lang-link mr-4" href="#" title="">ua</a>
+                    <a class="lang-link" href="#" title="">ru</a>
+                </div>
+                <div id="btn-modal" class="btn" data-modal="modal-one">MODAL</div>
+                <p class="color-grey footer_copyright d-lg-none d-flex mt-5">© 2021 РемонтСтройПлюс. Все права защищены</p>
+            </div>
+        </div>
+    </footer>
+
+    <div class="burger">
+        <nav class="burger-nav">
+            <a class="burger-nav_link" href="#about-us" title="О нас">О нас</a>
+            <a class="burger-nav_link" href="#photo" title="Фото">Фото</a>
+            <a class="burger-nav_link" href="#video" title="Видео">Видео</a>
+            <a class="burger-nav_link" href="#prices" title="Цены">Цены</a>
+            <a class="burger-nav_link" href="#location" title="Как нас найти?">Как нас найти?</a>
+            <a class="burger-nav_link" href="#request" title="Оставить заявку">Оставить заявку</a>
+        </nav>
+    </div>
+
+</div>
+
+
+<div class="modal" id="modal-one">
+    <div class="modal-bg modal-exit"></div>
+    <div class="modal-container">
+        <div class="modal-header mb-5 mt-3">
+            <div class="u-h5">Шапка модального окна</div>
+            <span class="btn-cross modal-exit">&times;</span>
+
+        </div>
+        <div class="modal-body">
+            <form class="row flex-column" action="">
+                <div class="col-12 mb-5">
+                    <input class="input-style" type="text" placeholder="Ваше Имя">
+                </div>
+                <div class="col-12 mb-5">
+                    <input class="input-style" type="tel" placeholder="+380 ХХХ ХХ ХХ">
+                </div>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <div class="btn">Что-то отправить</div>
+            <div class="btn modal-close modal-exit">Отменить</div>
+        </div>
+    </div>
+</div>
+
+
+<div class="scrollup">
+    <div class="circle">
+        <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M20.3384 10.7477L10.797 20.2891L9.05942 18.5515L9.06052 18.5504L0.438701 9.92857L2.17627 8.191L9.6901 15.7048L9.6901 -4.65451e-07L12.1474 -3.58039e-07L12.1474 15.4635L18.6008 9.01009L20.3384 10.7477Z" fill="white"/>
+        </svg>
+    </div>
+</div>
+
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/main.min.js"></script>
+
+</body>
+</html>
